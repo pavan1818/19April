@@ -1,0 +1,225 @@
+{
+  "id": "dd4f9b9a-cf15-412c-bf53-837820b9da3a",
+  "version": "2.0",
+  "name": "Test Project 1",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "16e87145-40c8-4f81-8b6a-1cd1f81c6679",
+    "name": "Test1",
+    "commands": [{
+      "id": "27e5529c-0c87-4293-af8f-41b965b42900",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bcbe5550-601a-48f7-b1b1-f55872292336",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "697x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3bfd381f-80be-4829-8426-74214ee925bb",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d14aa4f-1916-4585-a448-c56b27568bef",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "hospitals"
+    }, {
+      "id": "d9e1214a-8c11-4b72-95ca-af019075fc12",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "a70355ea-2c12-4481-918d-3dcb5c3bf53d",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "a6a09fad-4332-4d98-a7c3-635ab38d1dd3",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e38c75d-5467-4756-9cc9-268c0815dd02",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "hospital in pune"
+    }, {
+      "id": "2e2b3da7-96c7-4ff3-a73b-0b6e9767c226",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "850cdaee-302e-47f3-8865-6d3f1845b2ce",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,26.363636016845703)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "74394381-5d8b-43fa-84ad-96358e7cc8da",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,865.4545288085938)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "44e05e22-653e-4d7b-bfcb-e25abe5cabd2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.FCIUXc .LC20lb",
+      "targets": [
+        ["css=.FCIUXc .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div[2]/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Top 100 Hospitals in Pune - Best General ... - Justdial')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "75bebe0f-adab-4f3b-859c-2bc582fde932",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Popularity",
+      "targets": [
+        ["linkText=Popularity", "linkText"],
+        ["css=#popularity > .lng_srtfltr", "css:finder"],
+        ["xpath=//a[contains(text(),'Popularity')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"_ct('poplar','lspg'); return setCookieTab('tab','popularity','10253670','');\"]", "xpath:attributes"],
+        ["xpath=//li[@id='popularity']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Popularity')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "285c9234-b673-431e-bb93-577b3410d9a3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Eye Hospitals near me",
+      "targets": [
+        ["linkText=Eye Hospitals near me", "linkText"],
+        ["css=.related-catg:nth-child(2) > li:nth-child(3) > .lng_commn", "css:finder"],
+        ["xpath=//a[contains(text(),'Eye Hospitals near me')]", "xpath:link"],
+        ["xpath=(//a[@onclick=\"_ct('lhscatcnt','lspg');\"])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='related_keywords']/div/ul[2]/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.justdial.com/Pune/Eye-Hospitals/nct-10196517')]", "xpath:href"],
+        ["xpath=//ul[2]/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Eye Hospitals near me')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf9e027b-d869-4acf-b352-6aee1854f059",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Private Hospitals near me",
+      "targets": [
+        ["linkText=Private Hospitals near me", "linkText"],
+        ["css=.related-catg:nth-child(2) > li:nth-child(5) > .lng_commn", "css:finder"],
+        ["xpath=//a[contains(text(),'Private Hospitals near me')]", "xpath:link"],
+        ["xpath=(//a[@onclick=\"_ct('lhscatcnt','lspg');\"])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='related_keywords']/div/ul[2]/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.justdial.com/Pune/Private-Hospitals/nct-10390288')]", "xpath:href"],
+        ["xpath=//ul[2]/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Private Hospitals near me')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "72cf3a99-9afd-4e14-aadc-38e5c7f7a653",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Private Hospitals near me",
+      "targets": [
+        ["linkText=Private Hospitals near me", "linkText"],
+        ["css=.related-catg:nth-child(2) > li:nth-child(5) > .lng_commn", "css:finder"],
+        ["xpath=//a[contains(text(),'Private Hospitals near me')]", "xpath:link"],
+        ["xpath=(//a[@onclick=\"_ct('lhscatcnt','lspg');\"])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='related_keywords']/div/ul[2]/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.justdial.com/Pune/Private-Hospitals/nct-10390288')]", "xpath:href"],
+        ["xpath=//ul[2]/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Private Hospitals near me')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "df6c4761-7a55-4ae6-8dc9-8a230bf06d3c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sahyadri Hospitals near me",
+      "targets": [
+        ["linkText=Sahyadri Hospitals near me", "linkText"],
+        ["css=.related-catg:nth-child(2) > li:nth-child(4) > .lng_commn", "css:finder"],
+        ["xpath=//a[contains(text(),'Sahyadri Hospitals near me')]", "xpath:link"],
+        ["xpath=(//a[@onclick=\"_ct('lhscatcnt','lspg');\"])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='related_keywords']/div/ul[2]/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.justdial.com/Pune/Sahyadri-Hospitals/nct-11967298')]", "xpath:href"],
+        ["xpath=//ul[2]/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sahyadri Hospitals near me')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5f9b62b0-edaf-42b2-ada4-3a37da0ea5cc",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["16e87145-40c8-4f81-8b6a-1cd1f81c6679"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
